@@ -1,4 +1,5 @@
 package com.jurado.adrian.petcontrol.immunizationRegistry.application.port.out;
 
-public class IDeleteImmunizationPort {
+public interface IDeleteImmunizationPort {
+    public void deleteImmunization(Long id);
 }
